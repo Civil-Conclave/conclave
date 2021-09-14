@@ -1,25 +1,46 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import {BrowserRouter , Route, Switch} from 'react-router-dom';
+import Loadable from 'react-loadable';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const Loading = ({pastDelay})=>{
+  return pastDelay ? null:null
 }
+const Home = Loadable({
+  loader:()=> import ('./components/home/Index'),
+  loading: Loading
+})
+const About = Loadable({
+  loader:()=>import('./components/aboutUs/index'),
+  loading:Loading
+})
+const Event = Loadable({
+  loader:()=>import('./components/events/index'),
+  loading:Loading
+})
+const Sponsors = Loadable({
+  loader:()=>import('./components/sponsors/index'),
+  loading:Loading
+})
+const Problem = Loadable({
+  loader:()=>import('./components/problems/index'),
+  loading:Loading
+})
+export default class App extends React.Component{
+  render(){
+    return(
+      <BrowserRouter>
+        <Switch>
+            <React.Fragment>
+                <Route exact path="/" component={Home}/>
+                <Route exact path="/about" component={About}/>
+                <Route exact path="/events" component={Event}/>
+                <Route exact path = "/sponsors" component={Sponsors}/>
+                <Route exact path = "/problems" component={Problem}/>
 
-export default App;
+            </React.Fragment>
+        </Switch>
+      </BrowserRouter>
+    )
+  }
+}

@@ -1,0 +1,132 @@
+
+.aboutHead{
+width:100%;
+height:400px;
+background: #1C445A;
+border-radius: 2px;
+display: flex;
+align-items: center;
+    justify-content: flex-start;
+}
+.heading{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    margin-left:104px;
+    line-height: 150%;
+    /* identical to box height, or 72px */
+    text-transform: uppercase;
+    
+    /* Yellow1 */
+    color: #FBBE4A;   
+}
+.aboutHr{
+    background: #FBBE4A;
+    width: 126px;
+    height: 2px;
+    margin: 0;
+    border-style: none;
+    margin-left:10px;
+}
+.title{
+    display: flex;
+    align-items: center;
+    
+}
+.title>p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    margin-left: 8px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    /* Blue3 */
+
+    color: #3788AA;
+}
+.theme{
+    color: #1C445A;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 56px;
+    }
+.description{
+    font-family: Noto Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 170%;
+margin:0 56px;
+/* or 27px */
+width: 651px;
+text-align: justify;
+
+color: #1C445A;
+
+opacity: 0.8;
+}
+.aboutHead>img{
+    opacity: 0.1;
+    height: 400px;
+    position: relative;
+    right: -1vw;
+}
+.aboutGrandchild{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 110px;
+    align-items: center;
+}
+@media only screen and (max-width:768px){
+    .aboutHead{
+        height:200px;
+        margin-bottom: 40px;
+    }
+    .aboutHead>img{
+        height: 200px;
+        opacity: 0.1;
+    }
+    .heading{
+        font-size: 20px;
+        margin-left: 15px;
+    }
+    .aboutHr{
+        width: 60px;
+    }
+    
+    .title>p{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .description,.theme{
+        font-size: 12px;
+        width:73vw;
+        margin-right: 0;
+    }
+    .aboutGrandchild{
+        flex-direction: column;
+        margin:40px 15px ;
+    }
+    .aboutImage{
+       position: relative;
+       width: 100%;
+       margin-top: 10px;
+    }
+    .aboutParent{
+        width: 100%;
+    }
+}
+@media only screen and (min-width:1600px){
+    .title{
+        font-size: 30px;
+        line-height: 42px;
+    }
+    .description,.theme{
+        font-size: 20px;
+    }
+}

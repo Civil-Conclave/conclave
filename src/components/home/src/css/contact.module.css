@@ -1,0 +1,312 @@
+.query{
+    font-family: Noto Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 27px;
+
+/* Blue2 */
+
+color: #1B638B;
+}
+
+.heading{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 54px;
+margin-bottom:15px !important;
+/* identical to box height */
+
+text-transform: capitalize;
+
+/* Blue2 */
+
+color: #1B638B;
+}
+.contactParent{
+    padding-left: 100px !important;
+    padding:60px 0 ;
+    /* background-image: url('../img/contactback.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* .subject{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 786px;
+    margin:40px 0;
+}
+.subject>input{
+    background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.05);
+box-sizing: border-box;
+border-radius: 2px;
+width: 282px;
+height: 44px;
+}
+.message{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom:100px;
+}
+.message>textarea{
+    background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.05);
+box-sizing: border-box;
+border-radius: 2px;
+width: 786px;
+height: 124px;
+}
+.send{
+    background: #FBBE4A;
+border-radius: 2px;
+width: 152px;
+height: 50px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+margin: 0px 40px;
+text-transform: uppercase;
+border-style: none;
+color: #1C445A;
+} */
+.hr{
+    background: #1B638B;
+opacity: 0.08;
+width:1200px;
+margin-left: 0;
+height: 2px;
+}
+.contactChild{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin-top: 90px;
+}
+.logo{
+    cursor: pointer;
+    width: 225.66px;
+height: 72px;
+}
+.date{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+/* margin-left: 52px !important; */
+margin:0 0 10px 52px;
+
+/* Blue3 */
+
+color: #3788AA;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 52px !important;
+    width: 55px;
+}
+.icon>img{
+    cursor: pointer;
+}
+.description{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* or 27px */
+    /* Blue1 */
+    list-style: none;
+    color: #1C445A;
+    opacity: 0.8;
+}
+.contactImage{
+    height: 16px;
+    width: 16px;
+    align-items: center;
+    margin-right: 5px;
+}
+.verticalHr{
+    background: #1C445A;
+border-radius: 3px;
+width: 1px;
+margin:0 !important;
+height: 35vh;
+border-radius: 2px;
+}
+
+.contactChild2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+}
+.contactGrandChild{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.text{
+    font-family: Noto Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+text-decoration: none;
+/* identical to box height */
+cursor: pointer;
+/* Blue1 */
+margin:5px 0;
+color: #1C445A;
+}
+/* ::placeholder{
+    font-family: Noto Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+text-transform: capitalize;
+margin-left:10px !important;
+
+color: rgba(0, 0, 0, 0.3);
+} */
+@media only screen and (max-width:768px){
+    .contactParent{
+        margin:0 14px;
+    padding-left: 0 !important;
+
+    }
+    .heading{
+        font-size:20px;
+        line-height: 30px;
+    }
+    /* .query{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .subject{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items:flex-start;
+        width:300px;
+    }
+    .subject>input{
+        width:200px;
+        margin:10px 0;
+    }
+    input:nth-child(2){
+        width:240px !important;
+    }
+    .message{
+        margin-left: 14px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .message>textarea{
+        width: 240px;
+        height:74px;
+    }
+    .send{
+        width: 106px;
+    height: 38px;
+    font-size: 12px;
+    margin: 10px 0;
+    } */
+    .hr{
+    width:98%;
+    margin-left: 0;
+    height: 2px;
+    }
+    .contactChild{
+        width: 100%;
+        margin-right: 14px;
+        margin-top: 37px;
+    }
+    .logo{
+        width: 132px;
+        height: 41px;
+    }
+    .date{
+        font-size: 10px;
+        line-height: 15px;
+        margin: 0 0 8px 37px;
+    }
+    .icon{
+        margin-left: 38px !important;
+    }
+    .description{
+        display: none;
+    }
+    .verticalHr{
+        margin: 0 20px;
+        height: 15vh;
+    }
+    .contactChild2{
+        width: auto;
+    }
+    .text{
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .contactGrandChild{
+        margin-left:12px;
+    }
+
+}
+@media only screen and  (min-width:1600px){
+    .hr{
+        width: 95%;
+    }
+    .heading{
+        font-size: 42px;
+    }
+    .logo{
+        width: 300px;
+        height: 90px;
+    }
+    .date{
+        font-size: 24px;
+        line-height: 42px;
+    }
+    .icon{
+        width: 70px;
+    }
+    .icon img{
+        width: 30px;
+        height: 30px;
+    }
+    .description{
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .contactImage{
+        height: 22px;
+        width: 22px;
+    }
+    .description>div{
+        margin-left: 10px;
+    }
+    .text{
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .contactGrandChild{
+        margin-right: 10px;
+    }
+}
