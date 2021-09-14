@@ -1,6 +1,7 @@
 {
   "files": {
     "static/css/0.12f0f26c.chunk.css": "/conclave/static/css/0.12f0f26c.chunk.css",
+<<<<<<< HEAD
     "static/js/0.61a950fc.chunk.js": "/conclave/static/js/0.61a950fc.chunk.js",
     "static/js/0.61a950fc.chunk.js.map": "/conclave/static/js/0.61a950fc.chunk.js.map",
     "main.css": "/conclave/static/css/main.5739ad41.chunk.css",
@@ -13,18 +14,42 @@
     "static/css/4.aec652f2.chunk.css": "/conclave/static/css/4.aec652f2.chunk.css",
     "static/js/4.798b4fce.chunk.js": "/conclave/static/js/4.798b4fce.chunk.js",
     "static/js/4.798b4fce.chunk.js.map": "/conclave/static/js/4.798b4fce.chunk.js.map",
+=======
+    "static/js/0.380c15cf.chunk.js": "/conclave/static/js/0.380c15cf.chunk.js",
+    "static/js/0.380c15cf.chunk.js.map": "/conclave/static/js/0.380c15cf.chunk.js.map",
+    "main.css": "/conclave/static/css/main.5739ad41.chunk.css",
+    "main.js": "/conclave/static/js/main.286c22ba.chunk.js",
+    "main.js.map": "/conclave/static/js/main.286c22ba.chunk.js.map",
+    "runtime-main.js": "/conclave/static/js/runtime-main.88f3e29b.js",
+    "runtime-main.js.map": "/conclave/static/js/runtime-main.88f3e29b.js.map",
+    "static/js/3.acae4d87.chunk.js": "/conclave/static/js/3.acae4d87.chunk.js",
+    "static/js/3.acae4d87.chunk.js.map": "/conclave/static/js/3.acae4d87.chunk.js.map",
+    "static/css/4.aec652f2.chunk.css": "/conclave/static/css/4.aec652f2.chunk.css",
+    "static/js/4.7e7c500b.chunk.js": "/conclave/static/js/4.7e7c500b.chunk.js",
+    "static/js/4.7e7c500b.chunk.js.map": "/conclave/static/js/4.7e7c500b.chunk.js.map",
+>>>>>>> 88fc0f7 (Updates)
     "static/css/5.00eefcac.chunk.css": "/conclave/static/css/5.00eefcac.chunk.css",
     "static/js/5.5ba4c1ea.chunk.js": "/conclave/static/js/5.5ba4c1ea.chunk.js",
     "static/js/5.5ba4c1ea.chunk.js.map": "/conclave/static/js/5.5ba4c1ea.chunk.js.map",
     "static/css/6.ac00995d.chunk.css": "/conclave/static/css/6.ac00995d.chunk.css",
+<<<<<<< HEAD
     "static/js/6.53ee080f.chunk.js": "/conclave/static/js/6.53ee080f.chunk.js",
     "static/js/6.53ee080f.chunk.js.map": "/conclave/static/js/6.53ee080f.chunk.js.map",
+=======
+    "static/js/6.a1af5940.chunk.js": "/conclave/static/js/6.a1af5940.chunk.js",
+    "static/js/6.a1af5940.chunk.js.map": "/conclave/static/js/6.a1af5940.chunk.js.map",
+>>>>>>> 88fc0f7 (Updates)
     "static/css/7.b6f8f10f.chunk.css": "/conclave/static/css/7.b6f8f10f.chunk.css",
     "static/js/7.17d4848c.chunk.js": "/conclave/static/js/7.17d4848c.chunk.js",
     "static/js/7.17d4848c.chunk.js.map": "/conclave/static/js/7.17d4848c.chunk.js.map",
     "static/css/8.23175a32.chunk.css": "/conclave/static/css/8.23175a32.chunk.css",
+<<<<<<< HEAD
     "static/js/8.057b0d79.chunk.js": "/conclave/static/js/8.057b0d79.chunk.js",
     "static/js/8.057b0d79.chunk.js.map": "/conclave/static/js/8.057b0d79.chunk.js.map",
+=======
+    "static/js/8.f1d0b9c6.chunk.js": "/conclave/static/js/8.f1d0b9c6.chunk.js",
+    "static/js/8.f1d0b9c6.chunk.js.map": "/conclave/static/js/8.f1d0b9c6.chunk.js.map",
+>>>>>>> 88fc0f7 (Updates)
     "index.html": "/conclave/index.html",
     "static/css/0.12f0f26c.chunk.css.map": "/conclave/static/css/0.12f0f26c.chunk.css.map",
     "static/css/4.aec652f2.chunk.css.map": "/conclave/static/css/4.aec652f2.chunk.css.map",
@@ -33,7 +58,11 @@
     "static/css/7.b6f8f10f.chunk.css.map": "/conclave/static/css/7.b6f8f10f.chunk.css.map",
     "static/css/8.23175a32.chunk.css.map": "/conclave/static/css/8.23175a32.chunk.css.map",
     "static/css/main.5739ad41.chunk.css.map": "/conclave/static/css/main.5739ad41.chunk.css.map",
+<<<<<<< HEAD
     "static/js/3.93bea4ff.chunk.js.LICENSE.txt": "/conclave/static/js/3.93bea4ff.chunk.js.LICENSE.txt",
+=======
+    "static/js/3.acae4d87.chunk.js.LICENSE.txt": "/conclave/static/js/3.acae4d87.chunk.js.LICENSE.txt",
+>>>>>>> 88fc0f7 (Updates)
     "static/media/Caricature.5b1bfd04.jpg": "/conclave/static/media/Caricature.5b1bfd04.jpg",
     "static/media/Model Expo.9157b5a5.pdf": "/conclave/static/media/Model Expo.9157b5a5.pdf",
     "static/media/Namami Gange Problem Statement.d3401fc3.pdf": "/conclave/static/media/Namami Gange Problem Statement.d3401fc3.pdf",
@@ -61,9 +90,16 @@
     "static/media/vision.864b7338.jpg": "/conclave/static/media/vision.864b7338.jpg"
   },
   "entrypoints": [
+<<<<<<< HEAD
     "static/js/runtime-main.79490f72.js",
     "static/js/3.93bea4ff.chunk.js",
     "static/css/main.5739ad41.chunk.css",
     "static/js/main.1aed4eb0.chunk.js"
+=======
+    "static/js/runtime-main.88f3e29b.js",
+    "static/js/3.acae4d87.chunk.js",
+    "static/css/main.5739ad41.chunk.css",
+    "static/js/main.286c22ba.chunk.js"
+>>>>>>> 88fc0f7 (Updates)
   ]
 }
